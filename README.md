@@ -8,13 +8,13 @@
 
 ```
 Drum-Machine.
-
-
+- 3*3 sound pads
+- PreSets sounds
+- volume controler
+- keybourd compliant
 
 Js-react-app project.
 ```
-
-####
 
 ## Authors
 
