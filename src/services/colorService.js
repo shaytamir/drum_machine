@@ -16,11 +16,12 @@ export const randColor = () => {
 
 export const drumColor = (key) => {
   //   console.log("colorrrrrrrrrrrrr");
+  // console.log("kk", key);
   document.getElementById(key).style.backgroundColor = randColor();
 
   setTimeout(function () {
-    document.getElementById(key).style.backgroundColor = "white";
-  }, 300);
+    document.getElementById(key).style.backgroundColor = "#95c2da";
+  }, 100);
 };
 
 const exports = {

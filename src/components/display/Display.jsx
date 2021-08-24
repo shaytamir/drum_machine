@@ -1,18 +1,26 @@
-import React, { useState } from "react";
-import Sets from "../../services/drum_sets/sets";
+import React, { useReducer } from "react";
 
 import Pads from "./pads";
 import Setings from "./setings";
+import reducerValue from "../../services/reducers/displayReducer";
+
+export const DisplayContext = React.createContext();
 
 function Display() {
-  const [drumSet, setdrumSet] = useState(Sets.set1);
+  const [reducer, initialState] = reducerValue;
+  const [value, dispatch] = useReducer(reducer, initialState);
+
   return (
     <div id="display">
-      <Pads drumSet={drumSet} />
-      <Setings drumSet={drumSet} setdrumSet={setdrumSet} />
-
-      {/*  */}
-      {/*  */}
+      <DisplayContext.Provider
+        value={{
+          state: value,
+          dispatch: dispatch,
+        }}
+      >
+        <Pads />
+        <Setings />
+      </DisplayContext.Provider>
     </div>
   );
 }
