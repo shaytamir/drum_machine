@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "//shaytamir.github.io/drum_machine/static/css/main.dceb7eef.chunk.css",
+    "main.js": "//shaytamir.github.io/drum_machine/static/js/main.b70ab9af.chunk.js",
+    "main.js.map": "//shaytamir.github.io/drum_machine/static/js/main.b70ab9af.chunk.js.map",
+    "runtime-main.js": "//shaytamir.github.io/drum_machine/static/js/runtime-main.1b625818.js",
+    "runtime-main.js.map": "//shaytamir.github.io/drum_machine/static/js/runtime-main.1b625818.js.map",
+    "static/js/2.4bf2574d.chunk.js": "//shaytamir.github.io/drum_machine/static/js/2.4bf2574d.chunk.js",
+    "static/js/2.4bf2574d.chunk.js.map": "//shaytamir.github.io/drum_machine/static/js/2.4bf2574d.chunk.js.map",
+    "static/js/3.e24d6bce.chunk.js": "//shaytamir.github.io/drum_machine/static/js/3.e24d6bce.chunk.js",
+    "static/js/3.e24d6bce.chunk.js.map": "//shaytamir.github.io/drum_machine/static/js/3.e24d6bce.chunk.js.map",
+    "index.html": "//shaytamir.github.io/drum_machine/index.html",
+    "static/css/main.dceb7eef.chunk.css.map": "//shaytamir.github.io/drum_machine/static/css/main.dceb7eef.chunk.css.map",
+    "static/js/2.4bf2574d.chunk.js.LICENSE.txt": "//shaytamir.github.io/drum_machine/static/js/2.4bf2574d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b625818.js",
+    "static/js/2.4bf2574d.chunk.js",
+    "static/css/main.dceb7eef.chunk.css",
+    "static/js/main.b70ab9af.chunk.js"
+  ]
+}
